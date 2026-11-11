@@ -25,13 +25,13 @@
     {
       "binding": "OAUTH_KV",
       // Replace with the id printed by: wrangler kv namespace create OAUTH_KV
-      "id": "7a0347387a2a488da0f0f74c94fbd157"
+      "id": "8a03320b35a640919869917afbdba6ca"
     },
     {
       // Caches immutable past-day API responses. Created via:
       //   wrangler kv namespace create HEALTH_CACHE
       "binding": "HEALTH_CACHE",
-      "id": "f371d2aaf6ef488aa17085cb3c4cf3f9"
+      "id": "35ad106985af431f88b9f05b1cb39eac"
     }
   ],
   "vars": {
@@ -42,7 +42,7 @@
     // Public origin of this Worker; used for the connector icon/website advertised to MCP clients.
     "PUBLIC_URL": "https://google-health-mcp.a1dancole.workers.dev",
     // IANA timezone used to resolve "today"/"last night" for date defaults.
-    "TIME_ZONE": "Europe/London"
+    "TIME_ZONE": "Europe/Vienna"
   }
   // Secrets (set via `wrangler secret put`):
   //   GOOGLE_CLIENT_ID
